@@ -11,6 +11,12 @@ A feladat a következő:
 6. mire figyelj: memória limit? CPU meddig fut? tudod párhuzamosítani? mennyire egyszerű a kód?
 7. mire ne figyelj: mindegy milyen nyelvben kódolsz
 
+# FAQ
+* CSV értékelés mezőjét hogy kell értelmezni?
+   * amiben sima 0-5 szám van az maga az értékelés (5-ös skálán)
+   * amiben csak betűk vannak vagy üres az skip
+   * amiben X / Y a formátumban szerepelnek számok (space-k nem számítanak) azt arányosítani kell 5-ös skálára (a legtöbb így van)
+
 # Feladat 1
 Az átlag legjobb értékelést kapott TOP 3 film.
 
